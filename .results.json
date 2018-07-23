@@ -5,15 +5,15 @@
     "passes": 0,
     "pending": 0,
     "failures": 6,
-    "start": "2018-07-23T18:15:14.326Z",
-    "end": "2018-07-23T18:15:14.358Z",
-    "duration": 32
+    "start": "2018-07-23T18:16:14.312Z",
+    "end": "2018-07-23T18:16:14.345Z",
+    "duration": 33
   },
   "tests": [
     {
       "title": "has a folder named my-repository",
       "fullTitle": "this lab has a folder named my-repository",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "no folder name \"my-repository\" was found: value: expected './my-repository' to exist",
@@ -49,7 +49,7 @@
     {
       "title": "has README.md as a tracked file",
       "fullTitle": "the local repository has README.md as a tracked file",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "no files are being tracked.  Use \"git add .\" to track all files in this repo: expected './my-repository/.git/index' to exist",
@@ -73,7 +73,7 @@
     {
       "title": "has been pushed up to the remote repository",
       "fullTitle": "the local repository has been pushed up to the remote repository",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist",
@@ -88,7 +88,7 @@
     {
       "title": "has a folder named my-repository",
       "fullTitle": "this lab has a folder named my-repository",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "no folder name \"my-repository\" was found: value: expected './my-repository' to exist",
@@ -124,7 +124,7 @@
     {
       "title": "has README.md as a tracked file",
       "fullTitle": "the local repository has README.md as a tracked file",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "no files are being tracked.  Use \"git add .\" to track all files in this repo: expected './my-repository/.git/index' to exist",
@@ -148,7 +148,7 @@
     {
       "title": "has been pushed up to the remote repository",
       "fullTitle": "the local repository has been pushed up to the remote repository",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist",
